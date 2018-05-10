@@ -11,6 +11,7 @@ ECHO Now changing "Ethernet 2" subnet mask to 255.255.255.0
 ECHO.
 netsh interface ipv4 set address name="Ethernet 2" static 169.254.255.253 255.255.255.0
 ECHO You should now be able to remote into server...
+mstsc
 pause
 cls
 ipconfig
